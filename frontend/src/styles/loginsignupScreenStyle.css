@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.loginSignupMainContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.loginSignupimgContainer{
+    width: 50%;
+}
+
+.loginSignupimgContainer{
+    height: 100vh;
+}
+
+.loginSignupimgContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.loginSignupContainer{
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

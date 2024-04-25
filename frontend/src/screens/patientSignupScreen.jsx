@@ -1,20 +1,20 @@
-import patient1 from '../assets/patient1.jpg'
-import PatientLoginComponent from '../components/patientLoginComponent'
+import patient2 from '../assets/patient2.jpg'
+import PatientSignupComponent from '../components/patientSignUpComponent'
 import  '../styles/loginsignupScreenStyle.css'
 
-function PatientLoginScreen() {
+function PatientSignupScreen() {
     return (
         <>
         <div className='loginSignupMainContainer'>
             <div className='loginSignupimgContainer'>
-                <img src={patient1} alt="" />
+                <img src={patient2} alt="" />
             </div>
             <div className='loginSignupContainer'>
-                <PatientLoginComponent />
+                <PatientSignupComponent />
             </div>
         </div>
         </>
     )
 }
 
-export default PatientLoginScreen
+export default PatientSignupScreen
